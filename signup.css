@@ -1,0 +1,50 @@
+body {
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  background-color: rgb(188, 197, 253);
+  position: relative;
+}
+
+header {
+  border-bottom: solid 1px black;
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 25%;
+  height: auto;
+  margin: 0 auto;
+  position: absolute;
+  padding: 15px;
+  right: 40%;
+  top: 5%;
+  background-color: white;
+}
+
+#name,
+#lastname {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 45%;
+}
+
+#email,
+#password,
+#confirm-password {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 90%;
+}
+
+.sing-up {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  background-color: rgb(236, 234, 253);
+  padding: 5px 10px;
+}
+
+.account {
+  text-align: center;
+}
