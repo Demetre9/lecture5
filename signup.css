@@ -1,6 +1,6 @@
 body {
-  height: auto;
-  width: auto;
+  width: 1250px;
+  height: 370px;
   font-size: 20px;
   background-color: rgb(188, 197, 253);
   position: relative;
@@ -17,7 +17,7 @@ header {
   margin: 0 auto;
   position: absolute;
   padding: 15px;
-  right: 40%;
+  right: 10%;
   top: 5%;
   background-color: white;
 }
