@@ -1,6 +1,14 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("lecture5/Roboto-Black.ttf") format("trutype"),
+    url("lecture5/roboto-black.woff") format("woff"),
+    url("lecture5/roboto-black.woff2") format("woff2");
+}
+
 body {
+  font-family: Roboto, sans-serif;
   width: 100%;
-  height: 100%;
+  height: 75%;
   font-size: 20px;
   background-color: rgb(188, 197, 253);
   position: relative;
@@ -8,14 +16,24 @@ body {
 
 header {
   border-bottom: solid 1px black;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.information {
   margin-bottom: 15px;
 }
 
 .container {
   width: 20%;
-  height: 55%;
+  height: 60%;
   position: absolute;
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
   right: 40%;
   top: 5%;
   background-color: white;
@@ -36,14 +54,34 @@ header {
   width: 90%;
 }
 
+.checkbox {
+  display: inline;
+  margin-bottom: 15px;
+
+  width: 90%;
+}
+
+#submit {
+  cursor: pointer;
+}
+
+.margin-bewteen {
+  margin-bottom: 15px;
+}
+
 .sing-up {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 15px;
   background-color: rgb(236, 234, 253);
   padding: 5px 10px;
+  cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
 .account {
   text-align: center;
+  position: absolute;
 }

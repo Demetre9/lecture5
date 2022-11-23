@@ -1,5 +1,13 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("lecture5/Roboto-Black.ttf") format("trutype"),
+    url("lecture5/roboto-black.woff") format("woff"),
+    url("lecture5/roboto-black.woff2") format("woff2");
+}
+
 body {
   background-color: #8aacff;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -83,6 +91,9 @@ body {
   display: inline;
 }
 
+a {
+  text-decoration: none;
+}
 .sign-up {
   cursor: pointer;
 }

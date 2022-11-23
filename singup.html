@@ -3,8 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.html" />
-    <link rel="stylesheet" href="singup.html" />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="signup.css" />
     <title>Sign up</title>
   </head>
@@ -12,12 +11,12 @@
     <div class="container">
     <header>
       <h1>Sign up</h1>
-      <p>Please fill in this form to create an account!</p>
+      <p class="information">Please fill in this form to create an account!</p>
     </header>
     <form class="form">
       <label for="name"></label> 
       <input type=text id="name" placeholder="Name"
-      <label for="lastname"></label> 
+      <label for="lastname" ></label> 
       <input type=text id="lastname" placeholder="Last name" ><br>
       <label for="email"></label> 
       <input
@@ -25,8 +24,6 @@
         id="email"
         placeholder="email"
       /> <br>
-      
-
       <label for="password"></label> 
       <input
         type="password"
@@ -35,11 +32,15 @@
       /> <br>
       <input type="password" id="confirm-password"  placeholder=" confirm password"> <br>
       <input type="checkbox" id="submit" name="submit" />
-      <label for="check"> <span>accepted terms</span>  <span>&</span> <span>Privacy policy</span> </label> <br/>
-    </form>
+      <div class="checkbox">
+      <label for="check"> <span>accepted terms</span>  <span>&</span> <span >Privacy policy</span> </label> <br/>
+    </div>
+    <div class="margin-bewteen"></div>
     <button class="sing-up">Sign up</button> <br>
+ 
     <div class="account">
    <span >already have account?</span> <a href="http://127.0.0.1:5500/lecture5/">Login in here</a>
+  </form>
 </div>
 </div>
   </body>
